@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Mercury Tours flight booking system">
+    
+    
+   <test name="Landing(Home) page Test">
+    <classes>
+     
+      <class name="testcases.landingPage"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+     <test name="Flight finder default input validation test">
+    <classes>
+     
+      <class name="testcases.flightFinderDefaultValidation"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Booking flights test">
+    <classes>
+     
+      <class name="testcases.bookingFlight"/>
+    
+    </classes>
+  </test> <!-- Test -->
+   
+</suite> <!-- Suite -->
